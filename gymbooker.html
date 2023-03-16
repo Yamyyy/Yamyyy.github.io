@@ -39,10 +39,20 @@
 <script type="text/javascript">
    var $ = jQuery;
    window.onload = function(){
+    
+    $(".time-slot a").replaceWith(function() { 
+        return "<a>" + this.innerHTML + "</a>"; 
+    });
+
      $(".time-slot").bind("click", function(){
         $(this).removeClass()
         $(this).addClass("time-slot");
         $(this).addClass("booked");
+
+        $(this).children(":first-child").replaceWith(function() { 
+            return "<span>" + this.innerHTML + "</span>"; 
+        });
+
     })
    }
     
@@ -117,7 +127,7 @@
             
     <ul class="slot-list slot-list-1">
         <li class="slot">
-            <span id="xxx" class="date-info">2023-03-15 (星期三)</span>
+            <span class="date-info">2023-03-15 (星期三)</span>
             <div class="clearfix hidden-lg"></div>
             <span class="time-slot fulled">
                 <span>12:00-13:30</span>
@@ -162,7 +172,7 @@
                 <li class="slot">
                     <span class="date-info">2023-03-17 (星期五)</span>
                     <div class="clearfix hidden-lg"></div>
-                    <span class="time-slot booked">
+                    <span class="time-slot">
                         <a>12:00-13:30</a>
                     </span>
                     <span class="time-slot">
