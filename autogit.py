@@ -7,5 +7,5 @@ repo = Repo(dirfile)
 g = repo.git
 g.add("--all")
 g.commit("-m auto update")
-g.push()
+g.push("--set-upstream origin master")
 print("Successful push!")
