@@ -1,14 +1,16 @@
 from bs4 import BeautifulSoup
-import http.client
+import requests
 
-conn = http.client.HTTPSConnection("cgyy.xmu.edu.cn")
-payload = ''
+url = "https://cgyy.xmu.edu.cn/room/1"
+
+payload={}
 headers = {}
-conn.request("GET", "/room/1", payload, headers)
-res = conn.getresponse()
-data = res.read()
 
-new_soup = BeautifulSoup(data)
+response = requests.request("GET", url, headers=headers, data=payload)
+
+print(response.text)
+
+new_soup = BeautifulSoup(response.text)
 if new_soup.find('ul', class_='slot-list') is None:
     print("302")
 else:
