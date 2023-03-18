@@ -1,0 +1,36 @@
+on:
+   schedule:
+    - cron: "*/60 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-16.04
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Update time_slot
+      run: |
+        python auto_update.py
+        
+    - name: Commit
+      run: |
+        git config --global user.email 2396649622@qq.com
+        git config --global user.name Yamyyy
+        git add .
+        git commit -m "auto update"
+        git pull --rebase
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
