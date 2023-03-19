@@ -8,13 +8,13 @@ headers = {}
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-print(response.text)
+# print(response.text)
 
 new_soup = BeautifulSoup(response.text)
 if new_soup.find('ul', class_='slot-list') is None:
     print("302")
 else:
-    old_soup = BeautifulSoup(open("gymbooker.html"))
+    old_soup = BeautifulSoup(open("./gymbooker.html"))
 
     old_soup.find('ul', class_='slot-list').clear()
 
