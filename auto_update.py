@@ -19,19 +19,12 @@ else:
     old_soup.find('ul', class_='slot-list').clear()
 
 
-    empty_div = new_soup.new_tag('div')
-    empty_div.attrs['class'] = 'clearfix'
-    empty_div.append(' ')
-    empty_div2= new_soup.new_tag('div')
-    empty_div2.append("123")
-    empty_div.append(empty_div2)
+    # empty_div = BeautifulSoup('<div class="clearfix"></div>')
+
     for i in new_soup.find('ul', class_='slot-list'):
         old_soup.find('ul', class_='slot-list').append(i)
-        
-        
-        # old_soup.find('ul', class_='slot-list').append(new_soup.find('div', class_="clearfix"))
-        old_soup.find('ul', class_='slot-list').append(empty_div)
-        print(empty_div)
+        old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
+        print(1)
 
     old_soup.find('ul', class_='slot-list').append(new_soup.find('div', class_="help-info"))
 
