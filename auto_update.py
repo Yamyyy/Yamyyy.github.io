@@ -24,7 +24,6 @@ else:
     for i in new_soup.find('ul', class_='slot-list'):
         old_soup.find('ul', class_='slot-list').append(i)
         old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
-        print(1)
 
     old_soup.find('ul', class_='slot-list').append(new_soup.find('div', class_="help-info"))
 
