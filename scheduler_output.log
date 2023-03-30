@@ -40,3 +40,25 @@ The code that caused this warning is on line 26 of the file /data/mxp/junjie/Yam
 
   old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
 successed
+[master 6a2a417] /Code updated:23-03-30 21:26:57/
+ 2 files changed, 24 insertions(+), 1 deletion(-)
+error: RPC failed; result=35, HTTP code = 0
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date
+/data/mxp/junjie/Yamyyy.github.io/auto_update.py:13: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 13 of the file /data/mxp/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="html.parser"' to the BeautifulSoup constructor.
+
+  new_soup = BeautifulSoup(response.text)
+/data/mxp/junjie/Yamyyy.github.io/auto_update.py:17: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 17 of the file /data/mxp/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="html.parser"' to the BeautifulSoup constructor.
+
+  old_soup = BeautifulSoup(open("./gymbooker.html"))
+/data/mxp/junjie/Yamyyy.github.io/auto_update.py:26: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 26 of the file /data/mxp/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="html.parser"' to the BeautifulSoup constructor.
+
+  old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
+successed
