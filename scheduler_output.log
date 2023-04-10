@@ -131,3 +131,23 @@ The code that caused this warning is on line 26 of the file /data/mxp/junjie/Yam
 
   old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
 successed
+[master 64f6cfd] /Code updated:23-04-10 14:33:46/
+ 2 files changed, 52 insertions(+), 5 deletions(-)
+To https://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@github.com/Yamyyy/Yamyyy.github.io.git
+   25f763b..64f6cfd  master -> master
+/data/mxp/junjie/Yamyyy.github.io/auto_update.py:13: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 13 of the file /data/mxp/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  new_soup = BeautifulSoup(response.text)
+/data/mxp/junjie/Yamyyy.github.io/auto_update.py:17: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 17 of the file /data/mxp/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  old_soup = BeautifulSoup(open("./gymbooker.html"))
+/data/mxp/junjie/Yamyyy.github.io/auto_update.py:26: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 26 of the file /data/mxp/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
+successed
