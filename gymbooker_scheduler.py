@@ -4,12 +4,6 @@ import time
 def GetTime(): 
     return time.strftime("%y-%m-%d %H:%M:%S", time.localtime())
 
-commit_msg="Code updated:"+GetTime() 
-
-cmd_1 = "git status"
-cmd_2 = "git add ."
-cmd_3 = "git commit -m"+'/"'+commit_msg+'/"'
-cmd_4 = "git push"
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 from datetime import datetime, date
@@ -20,6 +14,13 @@ from datetime import datetime, date
 def execute():
     print("start execute")
     print(GetTime())
+    
+    commit_msg="Code updated:"+GetTime() 
+
+    cmd_1 = "git status"
+    cmd_2 = "git add ."
+    cmd_3 = "git commit -m"+'/"'+commit_msg+'/"'
+    cmd_4 = "git push"
 
     os.system("python /data/mxp/junjie/Yamyyy.github.io/auto_update.py")
     # os.system(cmd_1)
