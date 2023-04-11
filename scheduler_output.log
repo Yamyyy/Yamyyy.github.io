@@ -168,3 +168,6 @@ The code that caused this warning is on line 26 of the file /data/mxp/junjie/Yam
 
   old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
 successed
+[master f085be9] /Code updated:23-04-11 10:35:40/
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+fatal: unable to access 'https://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@github.com/Yamyyy/Yamyyy.github.io.git/': Encountered end of file
