@@ -22,7 +22,7 @@ def execute():
     cmd_3 = "git commit -m"+'/"'+commit_msg+'/"'
     cmd_4 = "git push"
 
-    os.system("python /data/mxp/junjie/Yamyyy.github.io/auto_update.py")
+    os.system("python /home/junjie/Yamyyy.github.io/auto_update.py")
     # os.system(cmd_1)
     os.system(cmd_2)
     os.system(cmd_3)

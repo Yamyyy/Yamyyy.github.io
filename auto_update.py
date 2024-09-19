@@ -8,7 +8,7 @@ headers = {}
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-# print(response.text)
+print(response.text)
 
 new_soup = BeautifulSoup(response.text)
 print(new_soup)

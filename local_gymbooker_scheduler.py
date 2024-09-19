@@ -13,9 +13,12 @@ from datetime import datetime, date
  
 def execute():
     print("start execute")
-    print(GetTime())   
+    print(GetTime())
+    
+    commit_msg="Code pull:"+GetTime() 
 
-    os.system("python /data/mxp/junjie/Yamyyy.github.io/auto_update.py")
+    cmd_1 = "git pull"
+    os.system(cmd_1)
 
     print("succesed")
 
@@ -25,5 +28,3 @@ scheduler = BlockingScheduler()
 
 scheduler.add_job(execute,'interval',seconds=7200)
 scheduler.start()
-
-# nohup python local_gymbooker_scheduler.py > output.log 2>&1 &
