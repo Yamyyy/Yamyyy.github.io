@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<!-- saved from url=(0044)https://cgyy.xmu.edu.cn/my_reservations/slot -->
+<!-- saved from url=(0039)https://cgyy.xmu.edu.cn/my_reservations -->
 <html lang="zh-hans" dir="ltr" class="js"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
     
 <link rel="shortcut icon" href="https://cgyy.xmu.edu.cn/sites/default/files/logo_0.png" type="image/png">
-    <title>健身房预约 | 翔安校区体育馆预约系统</title>
+    <title>场地预约 | 翔安校区体育馆预约系统</title>
     <link rel="stylesheet" type="text/css" href="./src/style.css">
-    <link rel="stylesheet" type="text/css" href="./src/date.css">
-    <link rel="stylesheet" type="text/css" href="./src/datepicker.1.7.css">
-    <link rel="stylesheet" type="text/css" href="./src/field.css">
-    <link rel="stylesheet" type="text/css" href="./src/node.css">
-    <link rel="stylesheet" type="text/css" href="./src/views.css">
-    <link rel="stylesheet" type="text/css" href="./src/ctools.css">
-    <link rel="stylesheet" type="text/css" href="./src/room_reservations.css">
-    <link rel="stylesheet" type="text/css" href="./src/custom.css">
-    <link rel="stylesheet" type="text/css" href="./src/system.base.css">
+<link rel="stylesheet" type="text/css" href="./src/date.css">
+<link rel="stylesheet" type="text/css" href="./src/datepicker.1.7.css">
+<link rel="stylesheet" type="text/css" href="./src/field.css">
+<link rel="stylesheet" type="text/css" href="./src/node.css">
+<link rel="stylesheet" type="text/css" href="./src/views.css">
+<link rel="stylesheet" type="text/css" href="./src/ctools.css">
+<link rel="stylesheet" type="text/css" href="./src/room_reservations.css">
+<link rel="stylesheet" type="text/css" href="./src/custom.css">
+<link rel="stylesheet" type="text/css" href="./src/system.base.css">
     <!-- <style>
 @import url("https://cgyy.xmu.edu.cn/modules/system/system.base.css?sjj9t3");
 </style> -->
@@ -55,52 +55,20 @@
     var $ = jQuery;
     window.onload = function(){
 
-        // <tr class="odd views-row-first views-row-last">
-        //           <td class="views-field views-field-name">
-        //     36920221153141          </td>
-        //           <td class="views-field views-field-field-real-name">
-        //     应俊杰          </td>
-        //           <td class="views-field views-field-field-date views-align-center">
-        //     <span class="date-display-single">2024-09-16,星期一</span>          </td>
-        //           <td class="views-field views-field-nothing">
-        //     15:00-16:30           </td>
-        //           <td class="views-field views-field-delete-node">
-        //               </td>
-        //       </tr>
+        // 退出，跳转至index并清除cookie
+        $("ul.secondary").bind("click", function(){
+            window.localStorage.clear(); //清除缓存
+            location.href = "gymbooker_index.html";
+        })
 
-        selcetDate = JSON.parse(localStorage.getItem("selcetDate"))
-        selcetTime = JSON.parse(localStorage.getItem("selcetTime"))
-        name = localStorage.getItem("name")
-        studentId = localStorage.getItem("studentId")
-        console.log(selcetTime)
-
-        var tbody = $('tbody');
-        console.log(123)
-        console.log(selcetDate)
-        for(var i = 0; i < selcetDate.length; i++) {
-            console.log(i)
-            // 创建一个新的表格行
-            var newRow = '<tr class="odd views-row-first views-row-last">' 
-                  + ' <td class="views-field views-field-name">' + studentId + '</td>'
-                  + '<td class="views-field views-field-field-real-name">' +name + '</td>'
-                  + '<td class="views-field views-field-field-date views-align-center">' + '<span class="date-display-single">'+ selcetDate[i] +'</span></td>' 
-                  + '<td class="views-field views-field-nothing">' + selcetTime[i] + '</td>'
-                  + '<td class="views-field views-field-delete-node">' + '</td>' 
-                  + '</tr>'
-
-            tbody.append(newRow)
-        }
- 
-        console.log(tbody)
-        
+        var studentId = localStorage.getItem("studentId");
+         $("nav").children(":first-child")[0].innerHTML = '你好，'+ studentId
     }
-     
- </script>
-
+</script>
 </head>
-<body class="html not-front logged-in no-sidebars page-my-reservations page-my-reservations-slot" style="">
+<body class="html not-front logged-in no-sidebars page-my-reservations" style="">
 <!-- <div id="skip-link">
-    <a href="https://cgyy.xmu.edu.cn/my_reservations/slot#main-content" class="element-invisible element-focusable">跳转到主要内容</a>
+    <a href="https://cgyy.xmu.edu.cn/my_reservations#main-content" class="element-invisible element-focusable">跳转到主要内容</a>
 </div> -->
 <div class="website-content">
     <div class="website-head">
@@ -131,12 +99,16 @@
                                                                     你好                                                            </div>
                             <div class="menu-zone">
                                                                     <ul class="menu nav navbar-nav"><li class="first leaf menu-222"><a href="https://cgyy.xmu.edu.cn/" title="">首页</a></li>
-<li class="leaf menu-697"><a href="场地预约_翔安校区体育馆预约系统.html" title="" class="active">我的预约</a></li>
-<li class="leaf menu-640"><a href="场地预约_翔安校区体育馆预约系统.html" title="">场地预约</a></li>
-<li class="leaf menu-854"><a href="健身房预约首页_翔安校区体育馆预约系统.html" title="">健身房预约</a></li>
+<li class="leaf menu-697"><a href="gymbooker_ground.html" title="" class="active">我的预约</a></li>
+<li class="leaf menu-640"><a href="gymbooker_ground.html" title="">场地预约</a></li>
+<li class="leaf menu-854"><a href="gymbooker_index.html" title="">健身房预约</a></li>
 <li class="leaf menu-1255"><a href="https://cgyy.xmu.edu.cn/room/2" title="">游泳馆预约</a></li>
 <li class="last leaf menu-1598"><a href="https://cgyy.xmu.edu.cn/misd_query">违规查询</a></li>
-</ul>                                                                            <ul class="menu nav navbar-nav secondary"><li class="first last leaf menu-15"><a href="https://cgyy.xmu.edu.cn/user/logout">退出</a></li>
+</ul>                                                                            
+<ul class="menu nav navbar-nav secondary">
+    <li class="first last leaf menu-15">
+        <a>退出</a>
+    </li>
 </ul>                                                                                                                                </div>
                         </nav>
                     </div>
@@ -154,44 +126,22 @@
 
             
             <section class="col-sm-12">
-                                <ol class="breadcrumb"><li><a href="https://cgyy.xmu.edu.cn/my_reservations">我的预约</a></li>
-<li class="active">健身房预约</li>
-</ol>                <a id="main-content"></a>
+                                                <a id="main-content"></a>
                                                                                 <h1 class="title" id="page-title">
-                            健身房预约                        </h1>
-                                                                                                            <h2 class="element-invisible">主标签</h2><ul class="tabs--primary nav nav-tabs"><li><a href="场地预约_翔安校区体育馆预约系统.html">场地预约</a></li>
-<li class="active"><a href="健身房预约_翔安校区体育馆预约系统.html" class="active">健身房预约<span class="element-invisible">（活动标签）</span></a></li>
+                            场地预约                        </h1>
+                                                                                                            <h2 class="element-invisible">主标签</h2><ul class="tabs--primary nav nav-tabs"><li class="active"><a href="gymbooker_ground.html" class="active">场地预约<span class="element-invisible">（活动标签）</span></a></li>
+<li><a href="gymbooker_gym.html">健身房预约</a></li>
 <li><a href="https://cgyy.xmu.edu.cn/my_reservations/slot2">游泳馆预约</a></li>
 </ul>                                                                  <div class="region region-content">
     <section id="block-system-main" class="block block-system clearfix">
 
             
-    <div class="view view-slot-appl-list view-id-slot_appl_list view-display-id-page_2 view-dom-id-d626d8be4ad41e2de29f4f10cf5c7c3a">
+    <div class="view view-room-reservations view-id-room_reservations view-display-id-page_2 view-dom-id-584b8233a208d19d326b6f7b468d978e">
         
   
   
-      <div class="view-content">
-      <div class="table-responsive">
-<table class="views-table cols-5 table table-hover table-striped">
-        <thead>
-      <tr>
-                  <th class="views-field views-field-name">
-            学工号          </th>
-                  <th class="views-field views-field-field-real-name">
-            姓名          </th>
-                  <th class="views-field views-field-field-date views-align-center">
-            日期          </th>
-                  <th class="views-field views-field-nothing">
-            时段          </th>
-                  <th class="views-field views-field-delete-node">
-                      </th>
-              </tr>
-    </thead>
-    <tbody>
-          
-      </tbody>
-</table>
-  </div>
+      <div class="view-empty">
+      <p>您暂时还未预约场地。</p>
     </div>
   
   
@@ -237,9 +187,7 @@
             jQuery('#loadingModal').modal({backdrop: 'static', keyboard: false});
         });
     });
-
-    
 </script>
 
 
-<iframe id="iBMwnJrB" frameborder="0" src="./src/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>
+<iframe id="CM1OtIi7" frameborder="0" src="./src/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>

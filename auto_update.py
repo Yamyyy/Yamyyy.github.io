@@ -15,7 +15,7 @@ print(new_soup)
 if new_soup.find('ul', class_='slot-list') is None:
     print("302")
 else:
-    with open("健身房预约首页 _ 翔安校区体育馆预约系统.html", "r", encoding='utf-8') as f:
+    with open("gymbooker_index.html", "r", encoding='utf-8') as f:
         html = f.read()
         old_soup = BeautifulSoup(html, 'html.parser')
 
@@ -32,6 +32,6 @@ else:
         print(old_soup)
 
 
-    with open('健身房预约首页 _ 翔安校区体育馆预约系统.html', 'w', encoding='utf-8') as f:
+    with open('gymbooker_index.html', 'w', encoding='utf-8') as f:
         f.write(str(old_soup))  # write result
     print("successed")
