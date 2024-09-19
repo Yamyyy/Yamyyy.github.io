@@ -28,3 +28,5 @@ scheduler = BlockingScheduler()
 
 scheduler.add_job(execute,'interval',seconds=7200)
 scheduler.start()
+
+# nohup python ./local_gymbooker_scheduler.py > ./result.txt 2>&1 &
