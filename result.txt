@@ -23410,3 +23410,512 @@ The code that caused this warning is on line 29 of the file /home/junjie/Yamyyy.
 </script>
 <iframe frameborder="0" id="1LKwUJW4" src="./src/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>
 successed
+[master 643e993] /Code updated:24-09-23 09:57:30/
+ 1 file changed, 509 insertions(+)
+remote: To git@github.com:Yamyyy/Yamyyy.github.io.git
+   680ccdb..643e993  master -> master
+/home/junjie/Yamyyy.github.io/auto_update.py:13: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 13 of the file /home/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  new_soup = BeautifulSoup(response.text)
+/home/junjie/Yamyyy.github.io/auto_update.py:29: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 29 of the file /home/junjie/Yamyyy.github.io/auto_update.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  old_soup.find('ul', class_='slot-list').append(BeautifulSoup('<div class="clearfix"></div>'))
+<!DOCTYPE html>
+<html lang="zh-hans" dir="ltr">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://cgyy.xmu.edu.cn/sites/default/files/logo_0.png" type="image/png" />
+    <title>健身房预约 | 翔安校区体育馆预约系统</title>
+    <style>
+@import url("https://cgyy.xmu.edu.cn/modules/system/system.base.css?sjj9t3");
+</style>
+<style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_api/date.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_repeat_field/date_repeat_field.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/modules/field/theme/field.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/modules/node/node.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/views/css/views.css?sjj9t3");
+</style>
+<style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/ctools/css/ctools.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/room_reservations/room_reservations.css?sjj9t3");
+</style>
+<link type="text/css" rel="stylesheet" href="https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/css/bootstrap.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/bootstrap/css/drupal-bootstrap.css" media="all" />
+<style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/css/custom.css?sjj9t3");
+</style>
+    <!-- HTML5 element support for IE6-8 -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://cgyy.xmu.edu.cn/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.js?v=1.10.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/jquery-extend-3.4.0.js?v=1.10.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.10.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/jquery.once.js?v=1.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/drupal.js?sjj9t3"></script>
+<script src="https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/js/bootstrap.js"></script>
+<script src="https://cgyy.xmu.edu.cn/sites/default/files/languages/zh-hans_C-Rb5wiQX-U3S-pj9DWrH-BbuR_27URKEBzSVIJEgqk.js?sjj9t3"></script>
+<script src="https://cgyy.xmu.edu.cn/sites/all/modules/room_reservations/room_reservations.js?sjj9t3"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"bootstrap","theme_token":"o24_PjPZZRYOM7wKxtyvF5GYOhqzZYKSm9waY2gZjoE","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/cgyy.xmu.edu.cn\/sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"public:\/\/languages\/zh-hans_C-Rb5wiQX-U3S-pj9DWrH-BbuR_27URKEBzSVIJEgqk.js":1,"sites\/all\/modules\/room_reservations\/room_reservations.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/room_reservations\/room_reservations.css":1,"https:\/\/cgyy.xmu.edu.cn\/sites\/all\/themes\/bootstrap\/css\/bootstrap.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.css":1,"sites\/all\/themes\/bootstrap\/css\/custom.css":1}},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-room page-room- page-room-1" >
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">跳转到主要内容</a>
+</div>
+<div class="website-content">
+    <div class="website-head">
+        <header id="navbar" role="banner" class="navbar container navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                                            <a class="logo navbar-btn pull-left" href="/" title="首页">
+                            <img src="https://cgyy.xmu.edu.cn/sites/default/files/logo.png" alt="首页" />
+                        </a>
+                    
+                                            <a class="name navbar-brand" href="/" title="首页">翔安校区体育馆预约系统</a>
+                    
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                                    <div class="navbar-collapse collapse">
+                        <nav role="navigation">
+                            <!--          <div class="language-switcher">-->
+                            <!--            <a href="?q=en">English</a> | <a href="?q=zh-hans">中文</a>-->
+                            <!--          </div>-->
+                            <div class = "blank_zone hidden-xs visible-sm-block visible-md-block visible-lg-block">
+                                                            </div>
+                            <div class="menu-zone">
+                                                                    <ul class="menu nav navbar-nav"><li class="first leaf menu-222"><a href="/" title="">首页</a></li>
+<li class="leaf menu-640"><a href="/room_reservations" title="">场地预约</a></li>
+<li class="leaf menu-854"><a href="/room/1" title="" class="active">健身房预约</a></li>
+<li class="leaf menu-1255"><a href="/room/2" title="">游泳馆预约</a></li>
+<li class="leaf menu-1598"><a href="/misd_query">违规查询</a></li>
+<li class="last leaf menu-696"><a href="http://ids.xmu.edu.cn/authserver/login?service=http://cgyy.xmu.edu.cn/idcallback" title="">登录</a></li>
+</ul>                                                                                                                                </div>
+                        </nav>
+                    </div>
+                            </div>
+        </header>
+    </div>
+    <div class="header_line"></div>
+    <div class="main-container container">
+
+        <header role="banner" id="page-header">
+            
+                    </header> <!-- /#page-header -->
+
+        <div class="row">
+
+            
+            <section class="col-sm-12">
+                                                <a id="main-content"></a>
+                                                                                <h1 class="title" id="page-title">
+                            健身房预约                        </h1>
+                                                                                                                                                                              <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+            
+    <ul class="slot-list slot-list-1"><li class="slot"><span class="date-info">2024-09-23 (星期一)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-24 (星期二)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-25 (星期三)</span><div class="clearfix hidden-lg"></div><span class="time-slot closed"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot closed"><span>13:30-15:00</span></span><span class="time-slot closed"><span>15:00-16:30</span></span><span class="time-slot closed"><span>16:30-18:00</span></span><span class="time-slot closed"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-26 (星期四)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-27 (星期五)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot closed"><span>13:30-15:00</span></span><span class="time-slot closed"><span>15:00-16:30</span></span><span class="time-slot closed"><span>16:30-18:00</span></span><span class="time-slot closed"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-28 (星期六)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-29 (星期天)</span><div class="clearfix hidden-lg"></div><span class="time-slot"><a href="/room_apl/1/2024-09-29/16/cg">10:30-12:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/10/cg">12:00-13:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/11/cg">13:30-15:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/12/cg">15:00-16:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/13/cg">16:30-18:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/14/cg">18:00-19:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/15/cg">19:30-21:00</a></span></li><div class="clearfix"></div><div class="help-info">预约说明：在预约前请先认真查看预约规则。<br/><span style="color:red;">自2024年9月14日起，将于每天下午13:00点后开放新一天的健身房预约。</span></div><div class="help-info"><span class="white_slot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 表示可预约
+    <span class="green_slot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 表示您已预约
+     <span class="blue_slot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 表示已被约满
+    <span class="grey_slot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 表示不开放</div>
+</section> <!-- /.block -->
+  </div>
+            </section>
+
+            
+        </div>
+    </div>
+    <div class="main-footer-blank"></div>\
+</div>
+<footer class="footer container">
+      <div class="region region-footer">
+    <section id="block-block-2" class="block block-block clearfix">
+
+            
+    <p><a href="http://library.xmu.edu.cn/"> 厦门大学</a> 版权所有 ©2024<br /></p>
+
+</section> <!-- /.block -->
+  </div>
+</footer><script src="https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/js/bootstrap.js?sjj9t3"></script>
+<div class="modal fade" id="loadingModal" role="dialog" aria-labelledby="dialogLabel" aria-hidden="true">
+    <div style="width: 200px;height:20px; z-index: 20000; position: absolute; text-align: center; left: 50%; top: 50%;margin-left:-100px;margin-top:-10px">
+        <div class="progress progress-striped active" style="margin-bottom: 0;">
+            <div class="progress-bar  progress-bar-info" style="width: 100%;"></div>
+        </div>
+        <h4>正在加载...</h4>
+    </div>
+</div>
+<script src="/sites/all/modules/services/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(function(){
+        jQuery('button#edit-submit').click(function(){
+            jQuery('#loadingModal').modal({backdrop: 'static', keyboard: false});
+        });
+        jQuery('button#edit-actions-submit').click(function(){
+            jQuery('#loadingModal').modal({backdrop: 'static', keyboard: false});
+        });
+    });
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-hans">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="IE=edge,Chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="https://cgyy.xmu.edu.cn/sites/default/files/logo_0.png" rel="shortcut icon" type="image/png"/>
+<title>健身房预约 | 翔安校区体育馆预约系统</title>
+<style>
+@import url("https://cgyy.xmu.edu.cn/modules/system/system.base.css?sjj9t3");
+</style>
+<style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_api/date.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_repeat_field/date_repeat_field.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/modules/field/theme/field.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/modules/node/node.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/views/css/views.css?sjj9t3");
+</style>
+<style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/ctools/css/ctools.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/room_reservations/room_reservations.css?sjj9t3");
+</style>
+<link href="https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/css/bootstrap.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/sites/all/themes/bootstrap/css/drupal-bootstrap.css" media="all" rel="stylesheet" type="text/css"/>
+<style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/css/custom.css?sjj9t3");
+</style>
+<!-- HTML5 element support for IE6-8 -->
+<!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script src="https://cgyy.xmu.edu.cn/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.js?v=1.10.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/jquery-extend-3.4.0.js?v=1.10.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.10.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/jquery.once.js?v=1.2"></script>
+<script src="https://cgyy.xmu.edu.cn/misc/drupal.js?sjj9t3"></script>
+<script src="https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/js/bootstrap.js"></script>
+<script src="https://cgyy.xmu.edu.cn/sites/default/files/languages/zh-hans_C-Rb5wiQX-U3S-pj9DWrH-BbuR_27URKEBzSVIJEgqk.js?sjj9t3"></script>
+<script src="https://cgyy.xmu.edu.cn/sites/all/modules/room_reservations/room_reservations.js?sjj9t3"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"bootstrap","theme_token":"o24_PjPZZRYOM7wKxtyvF5GYOhqzZYKSm9waY2gZjoE","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/cgyy.xmu.edu.cn\/sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"public:\/\/languages\/zh-hans_C-Rb5wiQX-U3S-pj9DWrH-BbuR_27URKEBzSVIJEgqk.js":1,"sites\/all\/modules\/room_reservations\/room_reservations.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/room_reservations\/room_reservations.css":1,"https:\/\/cgyy.xmu.edu.cn\/sites\/all\/themes\/bootstrap\/css\/bootstrap.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.css":1,"sites\/all\/themes\/bootstrap\/css\/custom.css":1}},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-room page-room- page-room-1">
+<div id="skip-link">
+<a class="element-invisible element-focusable" href="#main-content">跳转到主要内容</a>
+</div>
+<div class="website-content">
+<div class="website-head">
+<header class="navbar container navbar-default" id="navbar" role="banner">
+<div class="container">
+<div class="navbar-header">
+<a class="logo navbar-btn pull-left" href="/" title="首页">
+<img alt="首页" src="https://cgyy.xmu.edu.cn/sites/default/files/logo.png"/>
+</a>
+<a class="name navbar-brand" href="/" title="首页">翔安校区体育馆预约系统</a>
+<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse">
+<nav role="navigation">
+<!--          <div class="language-switcher">-->
+<!--            <a href="?q=en">English</a> | <a href="?q=zh-hans">中文</a>-->
+<!--          </div>-->
+<div class="blank_zone hidden-xs visible-sm-block visible-md-block visible-lg-block">
+</div>
+<div class="menu-zone">
+<ul class="menu nav navbar-nav"><li class="first leaf menu-222"><a href="/" title="">首页</a></li>
+<li class="leaf menu-640"><a href="/room_reservations" title="">场地预约</a></li>
+<li class="leaf menu-854"><a class="active" href="/room/1" title="">健身房预约</a></li>
+<li class="leaf menu-1255"><a href="/room/2" title="">游泳馆预约</a></li>
+<li class="leaf menu-1598"><a href="/misd_query">违规查询</a></li>
+<li class="last leaf menu-696"><a href="http://ids.xmu.edu.cn/authserver/login?service=http://cgyy.xmu.edu.cn/idcallback" title="">登录</a></li>
+</ul> </div>
+</nav>
+</div>
+</div>
+</header>
+</div>
+<div class="header_line"></div>
+<div class="main-container container">
+<header id="page-header" role="banner">
+</header> <!-- /#page-header -->
+<div class="row">
+<section class="col-sm-12">
+<a id="main-content"></a>
+<h1 class="title" id="page-title">
+                            健身房预约                        </h1>
+<div class="region region-content">
+<section class="block block-system clearfix" id="block-system-main">
+<ul class="slot-list slot-list-1"><li class="slot"><span class="date-info">2024-09-23 (星期一)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-24 (星期二)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-25 (星期三)</span><div class="clearfix hidden-lg"></div><span class="time-slot closed"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot closed"><span>13:30-15:00</span></span><span class="time-slot closed"><span>15:00-16:30</span></span><span class="time-slot closed"><span>16:30-18:00</span></span><span class="time-slot closed"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-26 (星期四)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-27 (星期五)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot closed"><span>13:30-15:00</span></span><span class="time-slot closed"><span>15:00-16:30</span></span><span class="time-slot closed"><span>16:30-18:00</span></span><span class="time-slot closed"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-28 (星期六)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><div class="clearfix"></div><li class="slot"><span class="date-info">2024-09-29 (星期天)</span><div class="clearfix hidden-lg"></div><span class="time-slot"><a href="/room_apl/1/2024-09-29/16/cg">10:30-12:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/10/cg">12:00-13:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/11/cg">13:30-15:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/12/cg">15:00-16:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/13/cg">16:30-18:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/14/cg">18:00-19:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/15/cg">19:30-21:00</a></span></li><div class="clearfix"></div><div class="help-info">预约说明：在预约前请先认真查看预约规则。<br/><span style="color:red;">自2024年9月14日起，将于每天下午13:00点后开放新一天的健身房预约。</span></div><div class="help-info"><span class="white_slot">      </span> 表示可预约
+    <span class="green_slot">      </span> 表示您已预约
+     <span class="blue_slot">      </span> 表示已被约满
+    <span class="grey_slot">      </span> 表示不开放</div>
+</ul></section> <!-- /.block -->
+</div>
+</section>
+</div>
+</div>
+<div class="main-footer-blank"></div>\
+</div>
+<footer class="footer container">
+<div class="region region-footer">
+<section class="block block-block clearfix" id="block-block-2">
+<p><a href="http://library.xmu.edu.cn/"> 厦门大学</a> 版权所有 ©2024<br/></p>
+</section> <!-- /.block -->
+</div>
+</footer><script src="https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/js/bootstrap.js?sjj9t3"></script>
+<div aria-hidden="true" aria-labelledby="dialogLabel" class="modal fade" id="loadingModal" role="dialog">
+<div style="width: 200px;height:20px; z-index: 20000; position: absolute; text-align: center; left: 50%; top: 50%;margin-left:-100px;margin-top:-10px">
+<div class="progress progress-striped active" style="margin-bottom: 0;">
+<div class="progress-bar progress-bar-info" style="width: 100%;"></div>
+</div>
+<h4>正在加载...</h4>
+</div>
+</div>
+<script src="/sites/all/modules/services/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(function(){
+        jQuery('button#edit-submit').click(function(){
+            jQuery('#loadingModal').modal({backdrop: 'static', keyboard: false});
+        });
+        jQuery('button#edit-actions-submit').click(function(){
+            jQuery('#loadingModal').modal({backdrop: 'static', keyboard: false});
+        });
+    });
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<!-- saved from url=(0030)https://cgyy.xmu.edu.cn/room/1 -->
+<html class="js" dir="ltr" lang="zh-hans"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="IE=edge,Chrome=1" http-equiv="X-UA-Compatible"/>
+<link href="https://cgyy.xmu.edu.cn/sites/default/files/logo_0.png" rel="shortcut icon" type="image/png"/>
+<title>健身房预约 | 翔安校区体育馆预约系统</title>
+<link href="./src/style.css" rel="stylesheet" type="text/css"/>
+<link href="./src/date.css" rel="stylesheet" type="text/css"/>
+<link href="./src/datepicker.1.7.css" rel="stylesheet" type="text/css"/>
+<link href="./src/field.css" rel="stylesheet" type="text/css"/>
+<link href="./src/node.css" rel="stylesheet" type="text/css"/>
+<link href="./src/views.css" rel="stylesheet" type="text/css"/>
+<link href="./src/ctools.css" rel="stylesheet" type="text/css"/>
+<link href="./src/room_reservations.css" rel="stylesheet" type="text/css"/>
+<link href="./src/custom.css" rel="stylesheet" type="text/css"/>
+<link href="./src/system.base.css" rel="stylesheet" type="text/css"/>
+<!-- <style>
+@import url("https://cgyy.xmu.edu.cn/modules/system/system.base.css?sjj9t3");
+</style> -->
+<!-- <style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_api/date.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/date/date_repeat_field/date_repeat_field.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/modules/field/theme/field.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/modules/node/node.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/views/css/views.css?sjj9t3");
+</style> -->
+<!-- <style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/ctools/css/ctools.css?sjj9t3");
+@import url("https://cgyy.xmu.edu.cn/sites/all/modules/room_reservations/room_reservations.css?sjj9t3");
+</style> -->
+<link href="./src/bootstrap.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="./src/drupal-bootstrap.css" media="all" rel="stylesheet" type="text/css"/>
+<style>
+@import url("https://cgyy.xmu.edu.cn/sites/all/themes/bootstrap/css/custom.css?sjj9t3");
+</style>
+<!-- HTML5 element support for IE6-8 -->
+<!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif] -->
+<script src="./src/jquery.js"></script>
+<script src="./src/jquery-extend-3.4.0.js"></script>
+<script src="./src/jquery-html-prefilter-3.5.0-backport.js"></script>
+<script src="./src/jquery.once.js"></script>
+<script src="./src/drupal.js"></script>
+<script src="./src/bootstrap.js"></script>
+<script src="./src/zh-hans_C-Rb5wiQX-U3S-pj9DWrH-BbuR_27URKEBzSVIJEgqk.js"></script>
+<script src="./src/room_reservations.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"bootstrap","theme_token":"RKa6nkoyokHkB-9EmXZU3oiRTuLh4EZ5_V9ykPyQSXI","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/cgyy.xmu.edu.cn\/sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"public:\/\/languages\/zh-hans_C-Rb5wiQX-U3S-pj9DWrH-BbuR_27URKEBzSVIJEgqk.js":1,"sites\/all\/modules\/room_reservations\/room_reservations.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/room_reservations\/room_reservations.css":1,"https:\/\/cgyy.xmu.edu.cn\/sites\/all\/themes\/bootstrap\/css\/bootstrap.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.css":1,"sites\/all\/themes\/bootstrap\/css\/custom.css":1}},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<script type="text/javascript">
+    var $ = jQuery;
+    window.onload = function(){
+
+        
+        var selcetDate = [];
+        var selcetTime = [];
+        
+        localStorage.setItem("selcetDate", JSON.stringify(selcetDate));
+        localStorage.setItem("selcetTime", JSON.stringify(selcetTime));
+        var name = localStorage.getItem("name");
+        var studentId = localStorage.getItem("studentId");
+        if (name && studentId) {
+            console.log(name+studentId)
+        } else {
+            var name = window.prompt("请输入您的姓名：")
+            localStorage.setItem("name", name);
+            var studentId = window.prompt("请输入您的学号：")
+            localStorage.setItem("studentId", studentId);
+        }
+        
+        $(".time-slot a").replaceWith(function() { 
+            return "<a>" + this.innerHTML + "</a>"; 
+        });
+        
+        $("nav").children(":first-child")[0].innerHTML = '你好，'+ studentId
+        
+        // 退出，跳转至index并清除cookie
+        $("ul.secondary").bind("click", function(){
+            window.localStorage.clear(); //清除缓存
+            location.href = "gymbooker_index.html";
+        })
+
+ 
+        $(".time-slot").bind("click", function(){
+
+            // 选中
+            $(this).removeClass()
+            $(this).addClass("time-slot");
+            $(this).addClass("booked");
+            var time;
+            $(this).children(":first-child").replaceWith(function() { 
+                time = this.innerHTML
+                return "<span>" + this.innerHTML + "</span>"; 
+            });
+            
+            // 记录选定的时间
+            var date = $(this).siblings(":first")[0].innerHTML
+            date = date.replace(" (",",").substring(0, date.length - 2)
+            selcetDate = JSON.parse(localStorage.getItem("selcetDate"))
+            selcetDate.push(date)
+            selcetTime = JSON.parse(localStorage.getItem("selcetTime"))
+            selcetTime.push(time)
+            localStorage.setItem("selcetDate", JSON.stringify(selcetDate));
+            localStorage.setItem("selcetTime", JSON.stringify(selcetTime));
+            console.log(date)
+            console.log(time)
+        })
+
+    }
+     
+     
+ </script>
+</head>
+<body class="html not-front logged-in no-sidebars page-room page-room- page-room-1" style="">
+<!-- <div id="skip-link">
+<a class="element-invisible element-focusable" href="https://cgyy.xmu.edu.cn/room/1#main-content">跳转到主要内容</a>
+</div> -->
+<div class="website-content">
+<div class="website-head">
+<header class="navbar container navbar-default" id="navbar" role="banner">
+<div class="container">
+<div class="navbar-header">
+<a class="logo navbar-btn pull-left" href="https://cgyy.xmu.edu.cn/" title="首页">
+<img alt="首页" src="./src/logo.png"/>
+</a>
+<a class="name navbar-brand" href="https://cgyy.xmu.edu.cn/" title="首页">翔安校区体育馆预约系统</a>
+<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse">
+<nav role="navigation">
+<!--          <div class="language-switcher">-->
+<!--            <a href="?q=en">English</a> | <a href="?q=zh-hans">中文</a>-->
+<!--          </div>-->
+<div class="blank_zone hidden-xs visible-sm-block visible-md-block visible-lg-block">
+                                                                    你好                                                         </div>
+<div class="menu-zone">
+<ul class="menu nav navbar-nav"><li class="first leaf menu-222"><a href="https://cgyy.xmu.edu.cn/" title="">首页</a></li>
+<li class="leaf menu-697"><a href="gymbooker_ground.html" title="">我的预约</a></li>
+<li class="leaf menu-640"><a href="gymbooker_ground.html" title="">场地预约</a></li>
+<li class="leaf menu-854"><a class="active" href="gymbooker_index.html" title="">健身房预约</a></li>
+<li class="leaf menu-1255"><a href="https://cgyy.xmu.edu.cn/room/2" title="">游泳馆预约</a></li>
+<li class="last leaf menu-1598"><a href="https://cgyy.xmu.edu.cn/misd_query">违规查询</a></li>
+</ul> <ul class="menu nav navbar-nav secondary"><li class="first last leaf menu-15"><a>退出</a></li>
+</ul> </div>
+</nav>
+</div>
+</div>
+</header>
+</div>
+<div class="header_line"></div>
+<div class="main-container container">
+<header id="page-header" role="banner">
+</header> <!-- /#page-header -->
+<div class="row">
+<section class="col-sm-12">
+<a id="main-content"></a>
+<h1 class="title" id="page-title">
+                            健身房预约                        </h1>
+<div class="region region-content">
+<section class="block block-system clearfix" id="block-system-main">
+<ul class="slot-list slot-list-1"><li class="slot"><span class="date-info">2024-09-23 (星期一)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><html><body><div class="clearfix"></div></body></html><li class="slot"><span class="date-info">2024-09-24 (星期二)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><html><body><div class="clearfix"></div></body></html><li class="slot"><span class="date-info">2024-09-25 (星期三)</span><div class="clearfix hidden-lg"></div><span class="time-slot closed"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot closed"><span>13:30-15:00</span></span><span class="time-slot closed"><span>15:00-16:30</span></span><span class="time-slot closed"><span>16:30-18:00</span></span><span class="time-slot closed"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><html><body><div class="clearfix"></div></body></html><li class="slot"><span class="date-info">2024-09-26 (星期四)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><html><body><div class="clearfix"></div></body></html><li class="slot"><span class="date-info">2024-09-27 (星期五)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot closed"><span>13:30-15:00</span></span><span class="time-slot closed"><span>15:00-16:30</span></span><span class="time-slot closed"><span>16:30-18:00</span></span><span class="time-slot closed"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><html><body><div class="clearfix"></div></body></html><li class="slot"><span class="date-info">2024-09-28 (星期六)</span><div class="clearfix hidden-lg"></div><span class="time-slot fulled"><span>10:30-12:00</span></span><span class="time-slot fulled"><span>12:00-13:30</span></span><span class="time-slot fulled"><span>13:30-15:00</span></span><span class="time-slot fulled"><span>15:00-16:30</span></span><span class="time-slot fulled"><span>16:30-18:00</span></span><span class="time-slot fulled"><span>18:00-19:30</span></span><span class="time-slot fulled"><span>19:30-21:00</span></span></li><html><body><div class="clearfix"></div></body></html><li class="slot"><span class="date-info">2024-09-29 (星期天)</span><div class="clearfix hidden-lg"></div><span class="time-slot"><a href="/room_apl/1/2024-09-29/16/cg">10:30-12:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/10/cg">12:00-13:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/11/cg">13:30-15:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/12/cg">15:00-16:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/13/cg">16:30-18:00</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/14/cg">18:00-19:30</a></span><span class="time-slot"><a href="/room_apl/1/2024-09-29/15/cg">19:30-21:00</a></span></li><html><body><div class="clearfix"></div></body></html><div class="help-info">预约说明：在预约前请先认真查看预约规则。<br/><span style="color:red;">自2024年9月14日起，将于每天下午13:00点后开放新一天的健身房预约。</span></div><html><body><div class="clearfix"></div></body></html>
+<html><body><div class="clearfix"></div></body></html><div class="help-info"><span class="white_slot">      </span> 表示可预约
+    <span class="green_slot">      </span> 表示您已预约
+     <span class="blue_slot">      </span> 表示已被约满
+    <span class="grey_slot">      </span> 表示不开放</div></ul></section> <!-- /.block -->
+</div>
+</section>
+</div>
+</div>
+<div class="main-footer-blank"></div>\
+</div>
+<footer class="footer container">
+<div class="region region-footer">
+<section class="block block-block clearfix" id="block-block-2">
+<p><a href="http://library.xmu.edu.cn/"> 厦门大学</a> 版权所有 ©2024<br/></p>
+</section> <!-- /.block -->
+</div>
+</footer><script src="./src/bootstrap.js"></script>
+<div aria-hidden="true" aria-labelledby="dialogLabel" class="modal fade" id="loadingModal" role="dialog">
+<div style="width: 200px;height:20px; z-index: 20000; position: absolute; text-align: center; left: 50%; top: 50%;margin-left:-100px;margin-top:-10px">
+<div class="progress progress-striped active" style="margin-bottom: 0;">
+<div class="progress-bar progress-bar-info" style="width: 100%;"></div>
+</div>
+<h4>正在加载...</h4>
+</div>
+</div>
+<script src="./src/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(function(){
+        jQuery('button#edit-submit').click(function(){
+            jQuery('#loadingModal').modal({backdrop: 'static', keyboard: false});
+        });
+        jQuery('button#edit-actions-submit').click(function(){
+            jQuery('#loadingModal').modal({backdrop: 'static', keyboard: false});
+        });
+    });
+</script>
+<iframe frameborder="0" id="1LKwUJW4" src="./src/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>
+successed
